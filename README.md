@@ -2,6 +2,8 @@
 
 A full-stack application that analyzes sentiment trends from Reddit posts using Hugging Face's AI models.
 
+Architecture Diagram: https://kumaragurudtsteam-my.sharepoint.com/:t:/g/personal/srinithi_22ad_kct_ac_in/EeSTtkV3LOJKoQfN4w82zwYBYPcZqad34vxw4Jxd12LEiA?e=cQR1fi
+
 
 
 ## Features
