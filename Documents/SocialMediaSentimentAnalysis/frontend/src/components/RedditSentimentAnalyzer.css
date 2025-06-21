@@ -1,0 +1,63 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-box {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #0079d3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #ccc;
+}
+
+.post {
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 5px;
+  background: #f8f9fa;
+}
+
+.post.positive {
+  border-left: 5px solid #4CAF50;
+}
+
+.post.negative {
+  border-left: 5px solid #F44336;
+}
+
+.sentiment-info {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.sentiment {
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.positive .sentiment {
+  color: #4CAF50;
+}
+
+.negative .sentiment {
+  color: #F44336;
+}

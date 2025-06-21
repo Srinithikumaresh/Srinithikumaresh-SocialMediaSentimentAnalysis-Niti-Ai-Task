@@ -1,0 +1,12 @@
+react
+react-dom
+react-scripts
+axios
+chart.js
+react-chartjs-2
+@mui/material
+@emotion/react
+@emotion/styled
+@mui/icons-material
+react-router-dom
+socket.io-client (optional for real-time updates)

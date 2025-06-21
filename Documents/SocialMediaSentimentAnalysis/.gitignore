@@ -1,0 +1,87 @@
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Build files
+dist/
+build/
+out/
+.next/
+
+# Cache directories
+.cache/
+.temp/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Testing coverage
+coverage/
+.nyc_output/
+
+# Debug files
+*.pid
+*.seed
+*.pid.lock
+
+# Misc
+*.bak
+*.tmp
+*.patch
+*.orig
+
+# Python (if applicable)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Docker
+docker-compose.override.yml
+
+# Secret files
+secrets.*
+*.key
+*.pem
+*.crt
+
+# Local development files
+*.local
+*.dev
+
+# macOS files
+._*
+
+# Windows files
+[Tt]humbs.db
+Desktop.ini
+
+# Backend specific
+backend/.env
+backend/uploads/
+backend/temp/
+
+# Frontend specific
+frontend/.env
+frontend/.next/
+frontend/.svelte-kit/backend\.env 

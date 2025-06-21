@@ -1,0 +1,88 @@
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.search-box {
+  display: flex;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #0079d3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #cccccc;
+}
+
+.results-container {
+  margin-top: 30px;
+}
+
+.sentiment-summary {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.posts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.post-card {
+  padding: 15px;
+  border-radius: 4px;
+  border-left: 5px solid #ddd;
+}
+
+.post-card.positive {
+  border-left-color: #4CAF50;
+  background: #f8fff8;
+}
+
+.post-card.negative {
+  border-left-color: #f44336;
+  background: #fff8f8;
+}
+
+.sentiment-badge {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.positive .sentiment-badge {
+  color: #4CAF50;
+}
+
+.negative .sentiment-badge {
+  color: #f44336;
+}
+
+a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0079d3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,12 @@
+express
+mongoose
+axios
+cors
+dotenv
+@huggingface/inference
+jsonwebtoken (optional for auth)
+bcryptjs (optional for auth)
+helmet (security)
+morgan (logging)
+winston (advanced logging)
+nodemon (dev dependency)
