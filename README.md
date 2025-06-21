@@ -7,6 +7,7 @@ Features
 📊 Displays results with confidence scores
 📈 Tracks sentiment trends over time (optional)
 🔒 Secure API endpoints with JWT (optional)
+
 Tech Stack
 Frontend:
 
@@ -27,6 +28,7 @@ MongoDB (Atlas or local)
 Reddit API credentials
 Hugging Face API token
 Installation
+
 Clone the repository:
 git clone https://github.com/your-username/reddit-sentiment-analysis.git
 cd reddit-sentiment-analysis
